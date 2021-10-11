@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.top-bar{
+    width: 100%;
+    height: 50px;
+    background: #379683;
+    font-size: 32px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.utils-bar{
+    background: #BBBBBB;
+    height: 40px;
+    width: 80%;
+    position: fixed;
+    top: 50px;
+}
+
+.editor-area{
+    width: 80%;
+    height: 100vh;
+    float: left;
+    padding: 20px 20px 20px 20px;
+}
+
+.right-bar{
+    background: #DEF2E7;
+    width: 20%;
+    height: 100vh;
+    float: left;
+}
+
+.right-bar-header{
+    width: 100%;
+    height: 60px;
+    background: #5CDB95;
+    position: fixed;
+}
+
+.right-bar-footer{
+    background: #379683;
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+}
+
+.footer-button{
+    background: #5CDB95;
+    border: 3px solid #5CDB95;
+    margin-top: 15px;
+    width: 120px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.footer-button:hover{
+    background: transparent;
+    transition: 0.2s;
+    padding: 7px 10px;
+    color: #5CDB95;
+}
